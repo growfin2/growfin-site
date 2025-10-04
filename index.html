@@ -2,136 +2,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GroFin - Invest Smart. Grow Simple.</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 1.2em;
-            margin-bottom: 20px;
-        }
-
-        .cta-button {
-            background-color: #e67e22;
-            color: #fff;
-            padding: 12px 24px;
-            text-decoration: none;
-            font-size: 1em;
-            border-radius: 5px;
-        }
-
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 40px 20px;
-            background-color: #fff;
-        }
-
-        .feature {
-            flex: 1 1 300px;
-            margin: 20px;
-            padding: 20px;
-            background-color: #ecf0f1;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .feature h3 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-
-            header p {
-                font-size: 1em;
-            }
-
-            .cta-button {
-                font-size: 0.9em;
-                padding: 10px 20px;
-            }
-
-            .features {
-                flex-direction: column;
-                padding: 20px;
-            }
-
-            .feature {
-                margin: 10px 0;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-
-            header p {
-                font-size: 0.9em;
-            }
-
-            .cta-button {
-                font-size: 0.8em;
-                padding: 8px 16px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GroFin - Invest Smart. Grow Simple.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>GroFin</h1>
-        <p>Invest Smart. Grow Simple.</p>
-        <a href="#features" class="cta-button">Get Started</a>
-    </header>
+  <header>
+    <h1>GroFin</h1>
+    <p>Invest Smart. Grow Simple.</p>
+    <a href="#subscribe" class="cta-button">Subscribe Now</a>
+  </header>
 
-    <section class="features" id="features">
-        <div class="feature">
-            <h3>Stock Market Education</h3>
-            <p>Learn how to invest in stocks with confidence and strategy.</p>
-        </div>
-        <div class="feature">
-            <h3>Crypto Insights</h3>
-            <p>Understand the world of cryptocurrency and blockchain assets.</p>
-        </div>
-        <div class="feature">
-            <h3>Diversified Assets</h3>
-            <p>Explore investment opportunities across various financial instruments.</p>
-        </div>
-    </section>
+  <section>
+    <h2>Why Choose GroFin?</h2>
+    <p>GroFin empowers you with financial education across stock markets, crypto assets, and diversified investment strategies. Learn at your own pace and grow your wealth with confidence.</p>
+  </section>
 
-    <footer>
-        <p>&copy; 2024 GroFin. All rights reserved.</p>
-    </footer>
+  <section id="subscribe">
+    <h2>Subscribe to GroFin</h2>
+    <p>Get updates and insights directly to your inbox.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfD_placeholder/viewform?embedded=true">Loading…</iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 GroFin. All rights reserved.</p>
+  </footer>
 </body>
 </html>
